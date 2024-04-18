@@ -11,3 +11,5 @@ def decToBase(number : int, base : int):
 def main():
     iN, iB, oB = input("Input number:\n"), int(input("Input base:\n")), int(input("Output base:\n"))
     print(decToBase(baseToDec(iN, iB), oN)
+    
+main()
